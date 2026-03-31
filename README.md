@@ -179,14 +179,25 @@ Interactive API docs: **http://localhost:8000/docs**
 
 ## Sample Customer Data
 
-| ID | Name | Plan | Status | Spend |
-|----|------|------|--------|-------|
-| 1 | Ema Johnson | Premium | Active | $2,450 |
-| 2 | Robert Chen | Basic | Active | $890 |
-| 3 | Alice Brown | Premium | Inactive | $5,200 |
-| 4 | Michael Davis | Enterprise | Active | $12,000 |
-| 5 | Sarah Wilson | Basic | Active | $345 |
-| ... | ... | ... | ... | ... |
+| ID | Name | Email | Phone | Plan | Join Date | Status | Address | Total Spend |
+|----|------|-------|-------|------|-----------|--------|---------|-------------|
+| 1 | Ema Johnson | ema.johnson@email.com | 555-1234 | Premium | 2022-03-15 | Active | 123 Main St, NY | $2,450.00 |
+| 2 | Robert Chen | robert.chen@email.com | 555-2345 | Basic | 2023-01-10 | Active | 456 Oak Ave, CA | $890.50 |
+| 3 | Alice Brown | alice.brown@email.com | 555-3456 | Premium | 2021-11-20 | Inactive | 789 Pine Rd, TX | $5,200.75 |
+| 4 | Michael Davis | michael.davis@email.com | 555-4567 | Enterprise | 2020-06-05 | Active | 321 Elm St, FL | $12,000.00 |
+| 5 | Sarah Wilson | sarah.wilson@email.com | 555-5678 | Basic | 2023-08-22 | Active | 654 Maple Dr, WA | $345.25 |
+| ... | ... | ... | ... | ... | ... | ... | ... | ... |
+
+## Sample Support Ticket Data
+
+| ID | Customer ID | Date | Category | Issue | Status | Priority | Resolution |
+|----|-------------|------|----------|-------|--------|----------|------------|
+| 1 | 1 | 2023-05-10 | Billing | Duplicate charge on monthly subscription | Resolved | High | Refund issued within 3 business days |
+| 2 | 1 | 2023-08-22 | Technical | Login issues after password reset | Resolved | Medium | Account unlocked, password reset link sent |
+| 3 | 1 | 2024-01-15 | Product | Feature not working on mobile app | In Progress | Low | Engineering team investigating |
+| 4 | 1 | 2024-03-01 | Billing | Request for invoice for tax purposes | Resolved | Low | Invoice sent via email |
+| 5 | 2 | 2023-09-05 | Technical | API integration errors | Resolved | High | Configuration guide provided |
+| ... | ... | ... | ... | ... | ... | ... | ... |
 
 ---
 
