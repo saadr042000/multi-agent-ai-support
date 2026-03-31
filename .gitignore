@@ -1,0 +1,17 @@
+# Secret keys - never commit this
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Runtime data (large files, no need to commit)
+data/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# macOS
+.DS_Store
